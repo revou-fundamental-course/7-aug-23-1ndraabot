@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operasi Hitung Keliling & Luas Segituga</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h2>TriangleCalc</h2>
+    </div>
+
+    <div class="container">
+        <div class="first-content">
+            <img src="./Asset/human-icon.svg" alt="Icon" >
+            <section>
+                <h2>Pecahkan Hitunganmu Tanpa Perlu Menghitung!</h2>
+                <p>Temukan kemudahan diera digitalisasi milenial, simpan tenagamu dan hemat daya pikirmu</p>
+            </section>
+        </div>
+    
+        <div class="line">.</div>
+
+        <div class="second-content">
+            <h1>Operasi Hitung Segitiga</h1>
+            <div class="container-box">
+                <div class="container-hitung">
+                    <section>
+                        <h1>Keliling</h1>
+                        <div class="flex-input">
+                            <div>
+                                <p>Alas</p>
+                                <input type="number" placeholder="ex: 12" class="box-input" id="keliling-alas">
+                            </div>
+                            <div>
+                                <p>Jumlah Sisi</p>
+                                <input type="number" placeholder="3" class="box-input" readonly>
+                            </div>
+                        </div>
+                        <button onclick="resultKeliling()" class="btn-hitung" >Hitung</button>
+                    </section>
+                </div>
+                <div class="container-hitung">
+                    <section>
+                        <h1>Luas</h1>
+                        <div class="flex-input">
+                            <div>
+                                <p>Alas</p>
+                                <input type="number" placeholder="ex: 12" class="box-input" id="luas-alas">
+                            </div>
+                            <div>
+                                <p>Tinggi</p>
+                                <input type="number" placeholder="ex: 15" class="box-input" id="luas-tinggi">
+                            </div>
+                        </div>
+                        <button onclick="resultLuas()" class="btn-hitung">Hitung</button>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hasil">
+            <h2 class="result-head"></h2>
+            <h1 class="result"></h1>
+        </div>
+
+        <div class="contact">
+            <a href="https://www.facebook.com/ray.ind.39" target="_blank"><img src="./Asset/facebook-icon.svg" alt="Go to Facebook"></a>
+            <a href="https://www.instagram.com/1ndraa_/" target="_blank"><img src="./Asset/instagram-icon.svg" alt="Go to Instagram"></a>
+            <a href="https://www.linkedin.com/in/adhitya-raynar-indrasta-33a920254/" target="_blank"><img src="./Asset/linkedin-icon.svg" alt="Go to LinkedIn"></a>
+            <a href="https://github.com/1ndraabot" target="_blank"><img src="./Asset/github-icon.svg" alt="Go to Github"></a>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
